@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.VisitaClienti" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#146B3A</item>
+        <item name="colorPrimaryVariant">#0B4D29</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>
