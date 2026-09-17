@@ -4,11 +4,11 @@ android {
     namespace = "it.vincenzo.visitaclienti"
     compileSdk = 35
     defaultConfig {
-        applicationId = "it.vincenzo.visitaclienti"
+        applicationId = "it.vincenzo.registrovisite"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
