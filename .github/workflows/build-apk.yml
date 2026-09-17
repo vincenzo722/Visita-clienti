@@ -1,7 +1,7 @@
 name: Build APK
 on:
   push:
-    branches: [ main ]
+    branches: [ main, v2-redesign ]
   workflow_dispatch:
 jobs:
   build:
@@ -19,5 +19,5 @@ jobs:
         run: gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: VisitaClienti-APK
+          name: VisitaClienti-v2-APK
           path: app/build/outputs/apk/debug/app-debug.apk
